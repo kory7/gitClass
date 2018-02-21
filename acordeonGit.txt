@@ -1,0 +1,18 @@
+git clone 			-> Descarga y clonar el proyecto
+git add   			-> para añadir cambios
+git diff  			-> para ver los cambios que se realizo en el codigo
+git commit -m   		-> sube los cambios que hizo en git add 
+git commit -am  		-> es la combinacion de git add + git commit
+git status 			-> checa el estatus del git
+git push 			-> sube los commits al master
+git pull 			-> es lo contrario de push, ya que trae la version actualizada del repositorio
+git log 			-> El historial completo de todo los cambios que hicieron los usuarios
+git reset --hard <commit> 	-> Regresa al tiempo, y se pierde todo lo que se hizo despues.
+git reset --hard origin/master 	-> Regresa al que esta en el repositorio.
+git branch 			-> dice cuantas ramas tiene el repositorio
+git branch <name> 		-> crea una rama nueva
+git checkout <branch_name> 	-> cambio de rama en la que se va a trabajar
+git merge <name> 		-> juntar master y la rama
+git branch -D <branch_name> 	-> borrar la rama
+git stash 			-> guardar tu trabajo en una memoria y trabajar con otro
+git stash apply 		-> juntar el trabajo con el que se guardo en la memoria
