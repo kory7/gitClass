@@ -1,0 +1,30 @@
+								FLEXBOX
+
+Siempre se trabaja con contenedores.
+Ej:	
+<div class="contenedor">
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+display:flex; 						-> iniciar flex.
+flex-direction:row|column|row-reverse|column-reverse;	-> Control de las direcciones de las cajitas.
+flex-wrap:wrap|no-wrap|wrap-reverse;			-> wrap, va respetar los tamaños de las cajitas entonces si no cabe los va mandar a la siguiente a linea.
+							-> no-wrap, no respeta los tamaños de las cajitas entonces si no cabe los va haciendo más chiquito.
+							-> wrap-reverse, como el nombre lo dice es wrap pero con las cajitas en orden reverso.
+flex-flow = wrap+direction  (flex-flow:wrap row)	-> Es un atajo para que puedas asignar las dos propiedades.
+
+Horizontal
+justify-content:flex-start|flex-end|center|space-around|space-between;	-> Acomodo dando espacios ya sea por la derecha, izquierda, ambos lados, 
+									   al rededor, entre cajitas.
+Vertical
+align-items:flex-start|flex-end|center|stretch;				-> (Para una sola linea)Lo mismo pero en vertical *stretch, necesita que height sea automatico 
+									    y hace que las cajitas se alarguen al 100%.
+
+align-content:flex-start|flex-end|center|space-around|space-between;	-> Cuando existen varias filas, los acomoda.
+
+
+
+ 
+ 	
